@@ -1,6 +1,8 @@
 # Listo Labs Website
 
-A simple static homepage for [Listo Labs](https://github.com/listolabs) — showcasing doku, Morphle, and Sixtee.
+Homepage for [Listo Labs](https://listolabs.github.io/) — showcasing doku, Morphle, and Sixtee.
+
+**Live site:** https://listolabs.github.io/
 
 ## Local preview
 
@@ -12,18 +14,13 @@ python3 -m http.server 8080
 
 Then visit [http://localhost:8080](http://localhost:8080).
 
-## Deploy to GitHub Pages
+## Deploy
 
-1. Create a new GitHub repository (e.g. `listo-website` or `listolabs.github.io` for a user site).
-2. Push this folder to the repo.
-3. In the repo, go to **Settings → Pages**.
-4. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-5. Choose the `main` branch and `/ (root)` folder, then save.
-6. After a minute or two, your site will be live at:
-   - `https://<username>.github.io/<repo-name>/` (project site), or
-   - `https://<username>.github.io/` (if the repo is named `<username>.github.io`).
+This repo is published via GitHub Pages from the `main` branch (`/` root). Push to `main` to update the live site.
 
-No build step required — this is plain HTML and CSS.
+```bash
+git push origin main
+```
 
 ## Structure
 
