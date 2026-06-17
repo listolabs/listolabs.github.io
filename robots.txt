@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://listolabs.github.io/sitemap.xml
